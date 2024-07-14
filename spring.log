@@ -1,0 +1,15 @@
+2024-07-14T14:12:42.389+09:00  INFO 21280 --- [java-test] [main] com.example.demo.JavaTestApplication     : Starting JavaTestApplication using Java 17.0.8 with PID 21280 (C:\Users\khj\Desktop\demo\target\classes started by khj in C:\Users\khj\Desktop\demo)
+2024-07-14T14:12:42.389+09:00  INFO 21280 --- [java-test] [main] com.example.demo.JavaTestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-07-14T14:12:44.064+09:00  INFO 21280 --- [java-test] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-14T14:12:44.080+09:00  INFO 21280 --- [java-test] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-14T14:12:44.080+09:00  INFO 21280 --- [java-test] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-14T14:12:44.163+09:00  INFO 21280 --- [java-test] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-14T14:12:44.163+09:00  INFO 21280 --- [java-test] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1686 ms
+2024-07-14T14:12:44.731+09:00  INFO 21280 --- [java-test] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-14T14:12:44.731+09:00  INFO 21280 --- [java-test] [main] com.example.demo.JavaTestApplication     : Started JavaTestApplication in 2.864 seconds (process running for 3.363)
+2024-07-14T14:12:54.245+09:00  INFO 21280 --- [java-test] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-14T14:12:54.245+09:00  INFO 21280 --- [java-test] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-14T14:12:54.245+09:00  INFO 21280 --- [java-test] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-14T14:12:54.463+09:00  INFO 21280 --- [java-test] [http-nio-8080-exec-2] com.example.demo.aop.LogAopComponent     : 메서드 시작
+2024-07-14T14:12:54.463+09:00  INFO 21280 --- [java-test] [http-nio-8080-exec-2] com.example.demo.aop.LogAopComponent     : 메서드 정보 출력: public java.util.Map com.example.demo.sample.sampleController.test(java.util.Map)
+2024-07-14T14:12:54.476+09:00  INFO 21280 --- [java-test] [http-nio-8080-exec-2] com.example.demo.aop.LogAopComponent     : 메서드 파라미터 출력: {name=John Doe, age=30, email=john.doe@example.com, address={street=123 Main St, city=Anytown, state=CA, zip=12345}, phones=[{type=home, number=555-555-5555}, {type=work, number=555-555-5556}], active=true}
